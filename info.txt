@@ -1,0 +1,9 @@
+codefresh registry api key
+2ce02a5f21214c977331f561ab35cfff
+docker login r.cfcr.io -u danbyun0110 -p 2ce02a5f21214c977331f561ab35cfff
+
+dockerhub codefresh webhook secret key
+xEiGZ7LEEAs6MSED
+
+dockerhub codefresh webhook endpoint
+https://g.codefresh.io/nomios/dockerhub?account=7d44da12beda&secret=xEiGZ7LEEAs6MSED
