@@ -3,4 +3,4 @@ FROM ubuntu
 COPY ./scripts/workload.sh /root/
 WORKDIR /root
 RUN chmod u+x workload.sh
-ENTRYPOINT ["workload.sh"]
+ENTRYPOINT ["bash"]
