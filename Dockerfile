@@ -1,3 +1,6 @@
+# IMAGE: codefresh/base
 FROM ubuntu
-COPY ./src /root/
-ENTRYPOINT ["bash"]
+COPY ./scripts/workload.sh /root/
+WORKDIR /root
+RUN chmod u+x workload.sh
+ENTRYPOINT ["workload.sh"]
